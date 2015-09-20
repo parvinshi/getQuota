@@ -5,7 +5,7 @@ $data = file_get_contents($url);
 
 function get_preg_replace($str){
     $str = preg_replace("/(\s|\&nbsp\;|　|\xc2\xa0)/", " ", strip_tags($str));
-    //var_dump($str);exit;
+    
     $date = date("Y/m/d",time());
     $date_str_pos = strpos($date,"/");
     $date_str = substr($date,0, $date_str_pos+1);
