@@ -1,6 +1,6 @@
 <?php
 header("Content-type: text/html; charset=utf-8"); 
-$url = 'http://techan.web05.idscn.com/index.php/Index/getpeie/';
+$url = 'http://58.96.179.69/index/pepi/';
 $data = file_get_contents($url);
 
 function get_preg_replace($str){
